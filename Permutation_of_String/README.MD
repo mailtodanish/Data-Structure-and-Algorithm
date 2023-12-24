@@ -2,8 +2,14 @@
 
 ![img/permutation_of_string.jpeg](/img/permutation_of_string.jpeg)
 
-## INPUT : [1,2,3,4]
+## INPUT : 
+
+```
+[1,2,3,4]
+```
+
 ## OUTPUT:
+```
 [ 1, 2, 3, 4 ]
 [ 1, 2, 4, 3 ]
 [ 1, 3, 2, 4 ]
@@ -28,3 +34,4 @@
 [ 4, 2, 3, 1 ]
 [ 4, 3, 1, 2 ]
 [ 4, 3, 2, 1 ]
+```
