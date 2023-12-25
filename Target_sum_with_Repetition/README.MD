@@ -1,4 +1,4 @@
-- Target sum with repeatation
+- Target sum with Repetition
 
 a= [2,3,4]
 

@@ -3,7 +3,7 @@
  *  let arr = [1,2,3]
  *  target sum = 6
  *  List of all subsets whose sum is equal to 8.
- *  Repeatation is allowed.
+ *  Repetition is allowed.
  **/
 
 
@@ -33,7 +33,7 @@ function perfectSumWithRepeattation(fixedPosition, notFixedPosition, totalSum) {
         }, []);
 
         let d = a;
-        while (d <= 8) {
+        while (d <= 8) { // Repeat till get Total Sum
             fx.push(a)
             let r = perfectSumWithRepeattation(fx, c, totalSum)
             if (r) {
@@ -41,9 +41,6 @@ function perfectSumWithRepeattation(fixedPosition, notFixedPosition, totalSum) {
             }
             d += d;
         }
-
-
-
 
     }
 
