@@ -3,8 +3,7 @@
  *  target sum = 6
  *  List of all subsets whose sum is equal to 8.
  *  All possible Subset = !3 + 3P2 + 3P1 = 15
- */
-
+ **/
 
 function perfectSum(fixedPosition, notFixedPosition, totalSum) {
 
@@ -45,4 +44,4 @@ function perfectSum(fixedPosition, notFixedPosition, totalSum) {
 
 let a = [5,1, 2, 3,4]
 let totalSum = 8;
-perfectSum([], a, totalSum)
+perfectSum([], a, totalSum) 
