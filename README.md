@@ -11,3 +11,4 @@ Data Structures and Algorithms are the building blocks of efficient problem-solv
 - JavaScript_Quick_Sort
 - JavaScript_Permutation_of_String
 - JavaScript_perfect_sum_problem
+- JavaScript_Target_sum_with_repeatation
